@@ -1,8 +1,8 @@
 
 <app-header></app-header>
 <div class="container-card">
-  <app-dog-card></app-dog-card>
-  
+  <app-dog-card *ngFor="let i of [0, 1, 2, 3, 4, 5]" [cardFoto]="postImages[i]" [cardTitle]="postTitle[i]" [cardDescription]="postText[i]"></app-dog-card>
+ 
 </div>
 
 

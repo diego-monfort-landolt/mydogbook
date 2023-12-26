@@ -13,6 +13,33 @@ import { DogCardComponent } from './dog-card/dog-card.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'my-dogapp';
+   postTitle =[
+    'Marley',
+    'Vasco',
+    'Cookie',
+    'Jack & Amy',
+    'Harry',
+    'Leonardo'
+  ];
+  postText = [
+    'Ich habe ein neues zuhause gefunden, dank dieser Website, danke!',
+    'Ich wurde vermittelt und bin in einem neuen Rudel',
+    'Ich wurde von meiner Mama leider verlassen, gibst du mir ein zuhause? Ich bin mittlerweile 15 Wochen alt.',
+    'Wir kommen im doppelpacket, ich und mein Sohn möchten zusamen bleiben. Tägliches laufen ist ein muss mit uns',
+    'Ich bin ein verspielter Welpe und mag es mit einem Ball zu spielen. Spielen wir gemeinsam?',
+    'Wir wurden vergeben, das Foto ist in meinem neuen Zuhause, Danke!',
+
+  ];
+ 
+
+  postImages = [
+    'assets/img/dog/dog1.jpg',
+    'assets/img/dog/dog2.jpg',
+    'assets/img/dog/dog3.jpg',
+    'assets/img/dog/dog4.jpg',
+    'assets/img/dog/dog5.jpg',
+    'assets/img/dog/dog6.jpg'
+    
+  ]
   
 }
