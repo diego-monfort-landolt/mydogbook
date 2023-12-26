@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { DogCardComponent } from './dog-card/dog-card.component';
+import { ProposalsComponent } from './proposals/proposals.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, DogCardComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, DogCardComponent, ProposalsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

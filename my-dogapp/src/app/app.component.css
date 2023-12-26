@@ -1,3 +1,9 @@
+.flex-row {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0 10%;
+}
+
 .container-card {
-  padding: 30px 0 0 10%;
+  margin-right: 30px;
 }
