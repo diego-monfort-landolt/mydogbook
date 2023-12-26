@@ -11,7 +11,14 @@
     height: 60px;
     margin-right: 10px;
     border-radius: 50%;
+    box-shadow: 0 0 10px #000;
     object-fit: cover;
     object-position: center; 
   }
+  .proposals-span {
+    font-size: 10px;
+    color: rgba($color: #000000, $alpha: 0.3);
+    
+  }
+  
 }
