@@ -1,0 +1,1 @@
+.card{min-height:400px;width:300px;background-color:#fff;border:1px solid #000;box-shadow:0 0 10px #000;border-radius:10px;overflow:hidden}.card img{width:100%;object-fit:cover}.card h3{padding:0px 10% 5px 10%}.card p{padding:0px 10% 0px 10%}@media (min-width: 768px){.card{width:300px}}
