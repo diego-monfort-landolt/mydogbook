@@ -25,6 +25,10 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+.proposals-container:hover {
+  box-shadow: 0 0 10px #000;
+}
+
 @media (max-width: 668px) {
   .proposals-container {
     display: none;
