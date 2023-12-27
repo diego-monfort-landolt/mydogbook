@@ -4,13 +4,14 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { DogCardComponent } from './dog-card/dog-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
+import { ProfileRowComponent } from './profile-row/profile-row.component';
 
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, DogCardComponent, ProposalsComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, DogCardComponent, ProposalsComponent, ProfileRowComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
