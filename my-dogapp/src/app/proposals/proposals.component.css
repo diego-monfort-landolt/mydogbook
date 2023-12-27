@@ -21,3 +21,9 @@
   font-size: 10px;
   color: rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 668px) {
+  .proposals-container {
+    display: none;
+  }
+}
