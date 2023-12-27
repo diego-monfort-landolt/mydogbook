@@ -14,6 +14,7 @@ import { ProposalsComponent } from './proposals/proposals.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+
    postTitle =[
     'Marley',
     'Vasco',
@@ -22,6 +23,7 @@ export class AppComponent {
     'Harry',
     'Leonardo'
   ];
+  
   postText = [
     'Ich habe ein neues zuhause gefunden, dank dieser Website, danke!',
     'Ich wurde vermittelt und bin in einem neuen Rudel',
@@ -31,7 +33,6 @@ export class AppComponent {
     'Wir wurden vergeben, das Foto ist in meinem neuen Zuhause, Danke!',
 
   ];
- 
 
   postImages = [
     'assets/img/dog/dog1.jpg',
