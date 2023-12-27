@@ -1,1 +1,1 @@
-.flex-row{display:flex;justify-content:center;padding:40px 0 0 10%}.container-card{margin-right:30px}
+.flex-row{display:flex;justify-content:center;padding:40px 0 0 10%}.container-card{display:flex;flex-wrap:wrap;margin-right:30px}
