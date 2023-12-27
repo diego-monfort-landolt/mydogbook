@@ -1,11 +1,11 @@
 .flex-row{ 
   display: flex;
   justify-content: center;
-  padding: 40px 0 0 10%;
+  padding: 40px 10% 0 10%;
 }
 
 .container-card {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 30px;
+  align-items:center;
 }
