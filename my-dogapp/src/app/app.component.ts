@@ -6,6 +6,7 @@ import { DogCardComponent } from './dog-card/dog-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -23,7 +24,7 @@ export class AppComponent {
     'Harry',
     'Leonardo'
   ];
-  
+
   postText = [
     'Ich habe ein neues zuhause gefunden, dank dieser Website, danke!',
     'Ich wurde vermittelt und bin in einem neuen Rudel',
