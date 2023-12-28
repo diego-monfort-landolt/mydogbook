@@ -2,7 +2,6 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ProposalsComponent } from '../proposals/proposals.component';
 import { CommonModule } from '@angular/common';
 
-
 @Component({
   selector: 'app-profile-row',
   standalone: true,
