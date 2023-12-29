@@ -11,12 +11,14 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './proposals.component.scss'
 })
 export class ProposalsComponent implements OnInit  {
+  
   name = [ 
     'Dario',
     'Franzi',
     'Marlon',
     'Fifi'
   ]
+
   texts = [
     '3 Jahre',
     '10 Jahre',
