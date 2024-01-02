@@ -1,11 +1,13 @@
 
 <app-header></app-header>
+<app-frindbox></app-frindbox>
 <!-- ngfor machen wir eine schleife- daten von app components-->
-<div class="flex-row">
-<div class="container-card">
-  <app-dog-card *ngFor="let i of [0, 1, 2, 3, 4, 5]" [cardFoto]="postImages[i]" [cardTitle]="postTitle[i]" [cardDescription]="postText[i]"></app-dog-card>
-</div>
-<app-proposals></app-proposals>
+<div class="flex-row"> 
+  <div class="container-card">
+   
+    <app-dog-card *ngFor="let i of [0, 1, 2, 3, 4, 5]" [cardFoto]="postImages[i]" [cardTitle]="postTitle[i]" [cardDescription]="postText[i]"></app-dog-card>
+  </div>
+  <app-proposals></app-proposals>
 </div>
 
 

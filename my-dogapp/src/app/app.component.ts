@@ -5,15 +5,16 @@ import { HeaderComponent } from './header/header.component';
 import { DogCardComponent } from './dog-card/dog-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfileRowComponent } from './profile-row/profile-row.component';
+import { FrindboxComponent } from "./frindbox/frindbox.component";
 
 
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, DogCardComponent, ProposalsComponent, ProfileRowComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    imports: [CommonModule, RouterOutlet, HeaderComponent, DogCardComponent, ProposalsComponent, ProfileRowComponent, FrindboxComponent]
 })
 export class AppComponent {
 

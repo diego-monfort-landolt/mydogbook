@@ -1,0 +1,38 @@
+.cardFrind {
+  
+  width: 70%;
+  background-color: #fff;
+  border: 1px solid #0000006e;
+  box-shadow: 0 0 10px #000000a1;
+  border-radius: 10px;
+  overflow: hidden;
+
+  margin: 30px auto 0;
+  padding: 16px;
+  box-sizing: border-box;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: 768px) {
+    width: 30%;
+  }
+
+  }
+  .frindRow{
+    display: flex;
+  }
+  .frind {
+    
+  
+    img { 
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+  }
+  

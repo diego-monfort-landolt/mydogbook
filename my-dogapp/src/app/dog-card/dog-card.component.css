@@ -9,16 +9,20 @@
   position: relative;
   margin: 10px;
 }
+
 .card img {
   width: 100%;
   object-fit: cover;
 }
+
 .card h3 {
   padding: 0px 10% 5px 10%;
 }
+
 .card p {
   padding: 0px 10% 0px 10%;
 }
+
 .card button {
   width: 50%;
   position: absolute;
@@ -29,16 +33,20 @@
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+
 .card button:first-child {
   left: 0;
 }
+
 .card button:last-child {
   right: 0;
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 .card button:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
 @media (min-width: 768px) {
   .card {
     width: 300px;
