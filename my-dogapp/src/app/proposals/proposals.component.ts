@@ -10,6 +10,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './proposals.component.html',
   styleUrl: './proposals.component.scss'
 })
+
 export class ProposalsComponent implements OnInit  {
   
   name = [ 
