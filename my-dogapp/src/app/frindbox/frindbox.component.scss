@@ -1,6 +1,6 @@
 .cardFrind {
   
-  width: 70%;
+  width: 80%;
   background-color: #fff;
   border: 1px solid #0000006e;
   box-shadow: 0 0 10px #000000a1;
@@ -17,7 +17,7 @@
   }
 
   @media (min-width: 768px) {
-    width: 30%;
+    width: 70%;
   }
 
   }
@@ -25,14 +25,20 @@
     display: flex;
   }
   .frind {
-    
-  
+
     img { 
       width: 50px;
       height: 50px;
       border-radius: 50%;
       object-fit: cover;
+      margin: 10px;
     }
+    p {
+      font-size: 12px;
+      text-align: center;
+      color: #0f0f0f46;
+    }
+    
     
   }
   
