@@ -13,15 +13,12 @@
   width: 100%;
   object-fit: cover;
 }
-
 .card h3 {
   padding: 0px 10% 5px 10%;
 }
-
 .card p {
   padding: 0px 10% 0px 10%;
 }
-
 .card button {
   width: 50%;
   position: absolute;
