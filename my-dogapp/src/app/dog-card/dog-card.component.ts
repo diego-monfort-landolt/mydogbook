@@ -12,7 +12,8 @@ export class DogCardComponent implements OnInit {
  @Input() cardTitle: string = '';
  @Input() cardDescription: string = '';
  @Input() cardFoto: string = '';
-  ngOnInit() {
 
+  ngOnInit() {
   }
+
 }
