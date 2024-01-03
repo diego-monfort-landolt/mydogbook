@@ -4,12 +4,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FrindService {
-  name = ['Dario']
+  name = []
 
-  texts = ['3 Jahre']
+  texts = []
 
-  frindshipImgs = [
-    'assets/img/dog/dog6.jpg']
+  frindshipImgs = []
 
   constructor() { }
 
@@ -17,6 +16,5 @@ export class FrindService {
     this.name.push(names)
     this.texts.push(text)
     this.frindshipImgs.push(imgs)
-
   }
 }

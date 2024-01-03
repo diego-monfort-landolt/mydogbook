@@ -1,6 +1,9 @@
 <div class="cardFrind frindRow">
-  <div class="frind" *ngFor="let name of fs.name; let i = index">
-    <img src="{{ fs.frindshipImgs[i] }}" />
-    <p>{{ name }}</p> 
+  <div *ngIf="fs.name.length === 0">
+    Du Folgst niemandem 😒
   </div>
+    <div class="frind" *ngFor="let name of fs.name; let i = index">
+      <img src="{{ fs.frindshipImgs[i] }}" />
+      <p>{{ name }}</p> 
+    </div>
 </div>

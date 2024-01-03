@@ -1,8 +1,8 @@
-<div class="proposals-container">
+<div class="proposals-container" *ngIf="canFollow" (click)="fs.addFriend(name, texts, frindshipImgs); canFollow=false;">
   <img src="{{ frindshipImgs }}" />
   <div class="name">
     <p><b>{{ name }}</b></p>
     <span class="proposals-span">{{ texts }}</span>
   </div>
-  <a (click)="fs.addFriend(name, texts, frindshipImgs)">Folgen</a>
+  <a *ngIf="canFollow" (click)="fs.addFriend(name, texts, frindshipImgs); canFollow=false;">Folgen</a>
 </div>

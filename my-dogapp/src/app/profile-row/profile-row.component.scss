@@ -28,16 +28,13 @@
     box-shadow: 0 0 10px #000;
   }
   .name {
-    width: 80px;
+    width: 70px;
   }
   a {
     font-size: 12px;
-    margin: 10px;
+    letter-spacing: 2px;
+    font-style: italic;
     cursor: pointer;
-    &:hover {
-      color: blue;
-      border-bottom: 1px solid blue;
-    }
   }
   @media (max-width: 668px) {
     display: none;

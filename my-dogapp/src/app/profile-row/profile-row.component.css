@@ -32,18 +32,14 @@
 }
 
 .proposals-container .name {
-  width: 80px;
+  width: 70px;
 }
 
 .proposals-container a {
   font-size: 12px;
-  margin: 10px;
+  letter-spacing: 2px;
+  font-style: italic;
   cursor: pointer;
-}
-
-.proposals-container a:hover {
-  color: blue;
-  border-bottom: 1px solid blue;
 }
 
 @media (max-width: 668px) {

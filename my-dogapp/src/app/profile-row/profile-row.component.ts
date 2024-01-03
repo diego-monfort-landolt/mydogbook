@@ -15,6 +15,7 @@ export class ProfileRowComponent implements OnInit {
   @Input() name: string = 'Fiffi';
   @Input() texts: string = '2 Jahre Alt';
   @Input() frindshipImgs: string = 'assets/img/dog/dog1.jpg';
+  @Input() canFollow = true;
 
   constructor(public fs: FrindService) { }
 
