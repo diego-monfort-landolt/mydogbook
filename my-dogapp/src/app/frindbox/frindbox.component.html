@@ -1,6 +1,6 @@
 <div class="cardFrind frindRow">
-  <div class="frind" *ngFor="let i of [0, 1, 2, 3]">
-    <img src="{{ frindshipImgs[i] }}" />
-    <p>{{ name[i] }}</p> 
+  <div class="frind" *ngFor="let name of fs.name; let i = index">
+    <img src="{{ fs.frindshipImgs[i] }}" />
+    <p>{{ name }}</p> 
   </div>
 </div>

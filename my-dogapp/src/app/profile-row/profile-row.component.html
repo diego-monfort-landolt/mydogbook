@@ -1,7 +1,8 @@
 <div class="proposals-container">
   <img src="{{ frindshipImgs }}" />
-  <div>
+  <div class="name">
     <p><b>{{ name }}</b></p>
     <span class="proposals-span">{{ texts }}</span>
   </div>
+  <a (click)="fs.addFriend(name, texts, frindshipImgs)">Folgen</a>
 </div>
