@@ -1,8 +1,8 @@
-<div class="card">
+<div class="card" [style.border]="liked ? '1px solid red' : ''">
   <img src="{{ cardFoto }}" />
   <h3>{{ cardTitle }}</h3>
   <p>{{ cardDescription }}</p>
-  <button>Like</button>
+  <button [style.backgroundColor]="liked ? '#0165e1' : ''" (click)="toggleLike()" >{{ liked ? '💓' : '💔' }}</button>
   <button>Nachricht</button>
 </div>
 

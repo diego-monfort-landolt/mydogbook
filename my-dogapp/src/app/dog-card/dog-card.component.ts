@@ -15,5 +15,10 @@ export class DogCardComponent implements OnInit {
 
   ngOnInit() {
   }
+  liked = false;
+
+  toggleLike() {
+    this.liked = !this.liked;
+  }
 
 }
