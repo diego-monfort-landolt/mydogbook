@@ -19,6 +19,9 @@
   p {
     padding: 0px 10% 0px 10%;
   }
+  input {
+    z-index: 1000;
+  }
 button {
     width: 50%;
     position: absolute;

@@ -23,6 +23,10 @@
   padding: 0px 10% 0px 10%;
 }
 
+.card input {
+  z-index: 1000;
+}
+
 .card button {
   width: 50%;
   position: absolute;

@@ -3,7 +3,7 @@
   <h3>{{ cardTitle }}</h3>
   <p>{{ cardDescription }}</p>
   <button [style.backgroundColor]="liked ? '#0165e1' : ''" (click)="toggleLike()" >{{ liked ? '💓' : '💔' }}</button>
-  <button>Nachricht</button>
+  <button (click)="showPopup()">Nachricht</button>
 </div>
 
 
