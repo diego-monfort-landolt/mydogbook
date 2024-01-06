@@ -7,8 +7,6 @@ import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfileRowComponent } from './profile-row/profile-row.component';
 import { FrindboxComponent } from "./frindbox/frindbox.component";
 
-
-
 @Component({
     selector: 'app-root',
     standalone: true,
