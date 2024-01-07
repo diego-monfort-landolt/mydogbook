@@ -12,7 +12,6 @@ import { FrindService } from '../frind.service';
 export class FrindboxComponent implements OnInit {
   
   constructor(public fs: FrindService) { }
-
   ngOnInit(): void {
     
   }

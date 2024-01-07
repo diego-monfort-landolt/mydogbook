@@ -17,21 +17,24 @@ export class ProposalsComponent implements OnInit  {
     'Dario',
     'Franzi',
     'Marlon',
-    'Fifi'
+    'Fifi',
+    'Diego'
   ]
 
   texts = [
     '3 Jahre',
     '10 Jahre',
     '16 Wochen',
-    '5 Jahre' 
+    '5 Jahre',
+    '10 Jahre' 
   ]
 
   frindshipImgs = [
     'assets/img/dog/dog6.jpg',
     'assets/img/dog/dog1.jpg',
     'assets/img/dog/dog3.jpg',
-    'assets/img/dog/dog2.jpg'
+    'assets/img/dog/dog2.jpg',
+    'assets/img/dog/dog3.jpg'
   ]
   constructor() { }
  ngOnInit(): void {
