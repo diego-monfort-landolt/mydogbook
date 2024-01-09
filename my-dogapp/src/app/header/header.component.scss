@@ -5,9 +5,11 @@ header {
   box-shadow: 2px 2px 2px #444;
   background-color: #fff;
 }
+
 .nav-container {
   margin-left: 20%;
 }
+
 nav a {
     margin: 10px;
     border: 1px solid #000;
@@ -25,7 +27,7 @@ nav a {
    }
    @media (max-width: 668px) {
     display: none;
-  }
+   }
   }
 
 .header-logo {
