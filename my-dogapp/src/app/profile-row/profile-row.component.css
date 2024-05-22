@@ -27,7 +27,6 @@
 .proposals-container:hover {
   box-shadow: 0 0 10px #000;
 }
-
 .proposals-container .name {
   width: 70px;
 }
